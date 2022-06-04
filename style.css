@@ -1,0 +1,1778 @@
+@font-face {
+   font-family: 'Libre Franklin';
+   font-style: normal;
+   font-weight: 700;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/librefranklin/v12/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhycKkANDPTedX18mE.woff) format('woff');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+ }
+ 
+ @font-face {
+   font-family: 'Libre Franklin';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/librefranklin/v12/jizOREVItHgc8qDIbSTKq4XkRg8T88bjFuXOnduhLsWkANDPTedX18mE.woff) format('woff');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+ }
+  @font-face {
+   font-family: 'Source Serif Pro';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/sourceserifpro/v15/neIQzD-0qpwxpaWvjeD0X88SAOeauXQ-oAGIyY0.woff2) format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+ }
+ 
+ /* latin-ext */
+ @font-face {
+   font-family: 'Tenor Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/tenorsans/v17/bx6ANxqUneKx06UkIXISn3t4Ck-L2qM2VQ.woff2) format('woff2');
+   unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+ }
+ /* latin */
+ @font-face {
+   font-family: 'Tenor Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/tenorsans/v17/bx6ANxqUneKx06UkIXISn3V4Ck-L2qM.woff2) format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+ }
+@font-face {
+   font-family: 'Tenor Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-display: swap;
+   src: url(https://fonts.gstatic.com/s/tenorsans/v17/bx6ANxqUneKx06UkIXISn3V4Ck-L2qM.woff2) format('woff2');
+   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+ }
+ body {
+    position: relative;
+    margin: 0;
+    display: flex
+    min-height: 100vh;
+   flex: 0 1 1440px;
+   justify-content: center;
+
+ }
+:root {
+   front-size: 20px;
+   line-height: 1.2;
+
+
+}
+.header_row {
+   position: absolute;
+  
+   background: #FFFFFF;
+   height: 90px;
+   left: 0%;
+   right: 0%;
+   top: 0px;
+   border-bottom: 1px solid  lightgray;
+   
+ 
+ }
+ .image_mountains {
+    display: flex;
+    flex-basis: 721px;
+    position: absolute;
+    top: 149px;
+    right: 601px;
+
+
+ }
+ .illustration {
+    position: absolute;
+    font-family: 'Libre Franklin';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.5rem;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    left: 890px;
+    top: 155px;
+
+color: #999999;
+ }
+h1 {
+   position: absolute;
+   font-family: 'Tenor Sans', sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   front-size: 1.8rem;
+   text-transform: uppercase;
+   line-height: 1.17;
+   color: black;
+   max-width: 311px;
+   top: 185px;
+   left: 890px;
+   
+
+}
+.paraghraf {
+   font-family: 'Source Serif Pro';
+font-style: normal;
+font-weight: 400;
+font-size: 0.8rem;
+line-height: 1.5;
+position: absolute;
+left: 890px;
+top: 380px;
+max-width: 330px;
+
+
+
+color: #666666;
+
+}
+.note_first, .note_second {
+   position: absolute;
+   font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 0.5rem;
+line-height: 1.2;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.note_first {
+   top: 480px;
+   left: 890px;
+}
+.note_second {
+   top: 480px;
+   left: 911px;
+}
+.wrapper {
+   position: absolute;
+width: 1220px;
+height: 963px;
+left: calc(50% - 1220px/2);
+top: 658px;
+}
+.image_bridge {
+   position: absolute;
+   height: 254px;
+   border-radius: 0px;
+   top: 25px;
+   left: 10px;
+}
+.kind_photography {
+   font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 0.5rem;
+line-height: 1.2;
+position: absolute;
+top: 303px;
+left: 10px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #999999;
+
+}
+.title_one {
+   font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+position: absolute;
+top: 333px;
+height: 72px;
+margin: 0;
+font-size: 20px;
+line-height: 1.2;
+left: 10px;
+max-width: 390px;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.note_first_title_one, .note_second_title_one {
+   font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 0.5rem;
+line-height: 1.2;
+position: absolute;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.note_first_title_one {
+   top: 420px;
+   left: 10px;
+}
+.note_second_title_one {
+   top: 420px;
+   left: 31px;
+}
+.image_bridge {
+   position: absolute;
+   height: 254px;
+   border-radius: 0px;
+   top: 25px;
+   left: 10px;
+}
+.image_food {
+   position: absolute;
+   height: 254px;
+   border-radius: 0px;
+   top: 25px;
+   left: 417px;
+}
+.kind_photography_second {
+   font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 0.5rem;
+line-height: 1.2;
+position: absolute;
+top: 303px;
+left: 417px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #999999;
+
+}
+.title_two {
+   font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+position: absolute;
+top: 333px;
+margin: 0;
+font-size: 20px;
+line-height: 1.2;
+left: 417px;
+max-width: 383px;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.note_first_title_two, .note_second_title_two {
+   font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 0.5rem;
+line-height: 1.2;
+position: absolute;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.note_first_title_two {
+   top: 420px;
+   left: 417px;
+}
+.note_second_title_two {
+   top: 420px;
+   left: 438px;
+}
+    .image_sea {
+      position: absolute;
+      height: 254px;
+      border-radius: 0px;
+      top: 25px;
+      left: 823px;
+    }  
+    .kind_photography_third {
+      font-family: 'Libre Franklin';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 0.5rem;
+   line-height: 1.2;
+   position: absolute;
+   top: 303px;
+   left: 823px;
+   
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   
+   color: #999999;
+   
+   }
+   .title_three {
+      font-family: 'Tenor Sans';
+   font-style: normal;
+   font-weight: 400;
+   position: absolute;
+   font-size: 20px;
+   line-height: 1.2;
+   top: 333px;
+   margin: 0;
+   left: 823px;
+   max-width: 353px;
+   text-transform: uppercase;
+   
+   color: #000000;
+   
+   }
+   .note_first_title_three, .note_second_title_three {
+      font-family: 'Libre Franklin';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 0.5rem;
+   line-height: 1.2;
+   position: absolute;
+   
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   
+   color: #000000;
+   
+   }
+   .note_first_title_three {
+      top: 444px;
+      left: 823px;
+   }
+   .note_second_title_three {
+      top: 444px;
+      left: 844px;
+   }
+   .image_chair {
+      position: absolute;
+      height: 254px;
+      border-radius: 0px;
+      top: 506px;
+      left: 10px;
+    }  
+    .interactive_design {
+      font-family: 'Libre Franklin';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 0.5rem;
+   line-height: 1.2;
+   position: absolute;
+   top: 785px;
+   left: 10px;
+   
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   
+   color: #999999;
+   
+   }
+   .title_four {
+      font-family: 'Tenor Sans';
+   font-style: normal;
+   font-weight: 400;
+   position: absolute;
+   top: 815px;
+   height: 48px;
+   font-size: 20px;
+line-height: 1.2;
+   left: 10px;
+   margin: 0;
+   max-width: 340px;
+   text-transform: uppercase;
+   
+   color: #000000;
+   
+   }
+   .note_first_title_four, .note_second_title_four {
+      font-family: 'Libre Franklin';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 0.5rem;
+   line-height: 1.2;
+   position: absolute;
+   
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   
+   color: #000000;
+   
+   }
+   .note_first_title_four {
+      top: 878px;
+      left: 10px;
+   }
+   .note_second_title_four {
+      top: 878px;
+      left: 31px;
+   }
+   .image_men {
+      position: absolute;
+      height: 254px;
+      border-radius: 0px;
+      top: 506px;
+      left: 417px;
+    }  
+    .graphic_design {
+      font-family: 'Libre Franklin';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 0.5rem;
+   line-height: 1.2;
+   position: absolute;
+   top: 785px;
+   left: 417px;
+   
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   
+   color: #999999;
+   
+   }
+   .title_five {
+      font-family: 'Tenor Sans';
+   font-style: normal;
+   font-weight: 400;
+   position: absolute;
+   top: 815px;
+   font-size: 20px;
+   line-height: 1.2;
+   margin: 0;
+   left: 417px;
+   max-width: 364px;
+   text-transform: uppercase;
+   
+   color: #000000;
+   
+   }
+   .note_first_title_five, .note_second_title_five {
+      font-family: 'Libre Franklin';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 0.5rem;
+   line-height: 1.2;
+   position: absolute;
+   
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   
+   color: #000000;
+   
+   }
+   .note_first_title_five {
+      bottom: 25px;
+      left: 417px;
+   }
+   .note_second_title_five {
+      bottom: 25px;
+      left: 438px;
+   }
+   .image_cave {
+      position: absolute;
+      height: 254px;
+      border-radius: 0px;
+      top: 506px;
+      left: 823px;
+    }  
+    .architecture {
+      font-family: 'Libre Franklin';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 0.5rem;
+   line-height: 1.2;
+   position: absolute;
+   top: 785px;
+   left: 823px;
+   
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   
+   color: #999999;
+   
+   }
+   .title_six {
+      font-family: 'Tenor Sans';
+   font-style: normal;
+   font-weight: 400;
+   position: absolute;
+   top: 815px;
+   margin: 0;
+   font-size: 20px;
+   line-height: 1.2;
+   left: 823px;
+   max-width: 377px;
+   text-transform: uppercase;
+   
+   color: #000000;
+   
+   }
+   .note_first_title_six, .note_second_title_six {
+      font-family: 'Libre Franklin';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 0.5rem;
+   line-height: 1.2;
+   position: absolute;
+   
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   
+   color: #000000;
+   
+   }
+   .note_first_title_six {
+      top: 902px;
+      left: 823px;
+   }
+   .note_second_title_six {
+      top: 902px;
+      left: 844px;
+   }
+
+.menu_home {
+   position: absolute;
+   font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 0.7rem;
+line-height: 1.71;
+text-decoration: none;
+color: #000000;
+letf: 1085px;
+top: 33px;
+bottom: 33px;
+right: 313px;
+
+
+}
+.menu_latest {
+   position: absolute;
+   font-family: 'Libre Franklin';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 0.7rem;
+   line-height: 1.71;
+   text-decoration: none;
+   color: #000000;
+   top: 33px;
+   bottom: 33px;
+   left: 1167px;
+   right: 225px;
+}
+.menu_about {
+   position: absolute;
+   font-family: 'Libre Franklin';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 0.7rem;
+   line-height: 1.71;
+   text-decoration: none;
+   color: #000000;
+   top: 33px;
+   bottom: 33px;
+   left: 1255px;
+   right: 140px;
+}
+.image {
+   position: absolute;
+   top: 37px;
+   left: 120px;
+   bottom: 36.06px;
+}
+.block {
+position: absolute;
+top: 1686px;
+left: 120px;
+right: 120px;
+display: flex;
+    flex-basis: 1200px;
+    justify-content: center;
+
+height: 1px;
+top: 1686px;
+background: #E6E6E6;
+border-radius: 0px;
+}
+.section_action_btn
+{
+   position: absolute;
+  border: 1px solid #000000;
+  outline: none;
+  overflow: hidden;
+  text-align: center;
+  text-decoration: none;
+  
+  cursor: pointer;
+  font-size: 0.5rem;
+  padding: 21px 26px;
+ 
+  background: transparent;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  margin: 21px 26px;
+  
+left: 644px;
+top: 2758px;
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.overview_article {
+   position: absolute;
+width: 1200px;
+height: 1014.06px;
+left: 120px;
+top: 1776px;
+
+}
+.latest_post_grey {
+   position: absolute;
+height: 12px;
+left: 0%;
+top: 0.03px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 1.2;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #999999;
+
+}
+.kind_illustration {
+   position: absolute;
+   height: 12px;
+   left: 0px;
+   top: 254.03px;
+   
+   font-family: 'Libre Franklin';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 10px;
+   line-height: 12px;
+   
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   
+   color: #999999;
+   
+   
+}
+.image_mountains_two {
+   position: absolute;
+height: 187px;
+left: 0px;
+top: 42.03px;
+
+background: url(.jpg);
+border-radius: 0px;
+
+}
+.title_seven {
+   position: absolute;
+   margin: 0;
+   height: 72px;
+
+left: 0px;
+top: 284.03px;
+
+font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 24px;
+max-width: 276px;
+
+text-transform: uppercase;
+
+color: #000000;
+
+   
+}
+.note_first_title_seven {
+top: 371.03px;
+left: 0px;
+
+   
+}
+.note_second_title_seven {
+   top: 371.03px;
+   left: 22px;
+}
+.note_second_title_seven, .note_first_title_seven {
+   position: absolute;
+height: 12px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.image_town {
+   position: absolute;
+height: 187px;
+left: 305px;
+top: 42.03px;
+
+background: url(.jpg);
+border-radius: 0px;
+}
+.kind_photography_fourth {
+   position: absolute;
+height: 12px;
+left: 305px;
+top: 254.03px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #999999;
+
+}
+.title_eight {
+   position: absolute;
+height: 96px;
+left: 305px;
+top: 284.03px;
+margin: 0;
+
+font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+max-width: 281px;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.note_first_title_eight {
+top: 395.03px;
+left: 313px;
+
+   
+}
+.note_second_title_eight {
+   top: 395.03px;
+   left: 335px;
+}
+.note_second_title_eight, .note_first_title_eight {
+   position: absolute;
+height: 12px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.kind_illustration {
+   position: absolute;
+   height: 12px;
+   left: 0px;
+   top: 254.03px;
+   
+   font-family: 'Libre Franklin';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 10px;
+   line-height: 12px;
+   
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   
+   color: #999999;
+   
+}
+.image_food_two {
+   position: absolute;
+height: 187px;
+left: 610px;
+top: 42.03px;
+
+background: url(.jpg);
+border-radius: 0px;
+
+}
+.kind_photography_fivth {
+   position: absolute;
+height: 12px;
+left: 610px;
+top: 254.03px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #999999;
+}
+.title_nine {
+   position: absolute;
+
+left: 610px;
+top: 284.03px;
+margin: 0;
+
+font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 24px;
+max-width: 276px;
+
+text-transform: uppercase;
+
+color: #000000;
+
+   
+}
+.note_first_title_nine {
+top: 395.03px;
+left: 626px;
+
+   
+}
+.note_second_title_nine {
+   top: 395.03px;
+   left: 648px;
+}
+.note_second_title_nine, .note_first_title_nine {
+   position: absolute;
+height: 12px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000; }
+
+.kind_photography_sixth {
+   position: absolute;
+   height: 12px;
+   left: 915px;
+   top: 254.03px;
+   
+   font-family: 'Libre Franklin';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 0.5rem;
+   line-height: 1.2;
+   
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   
+   color: #999999;
+   
+}
+.image_beach {
+   position: absolute;
+height: 187px;
+left: 915px;
+top: 42.03px;
+
+background: url(.jpg);
+border-radius: 0px;
+
+}
+.kind_photography_sixth {
+   position: absolute;
+height: 12px;
+left: 915px;
+top: 254.03px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #999999;
+}
+.title_ten {
+   position: absolute;
+
+left: 915px;
+top: 284.03px;
+margin: 0;
+
+font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 1.26;
+max-width: 261px;
+
+
+text-transform: uppercase;
+
+color: #000000;
+
+   
+}
+.note_first_title_ten {
+top: 419.03px;
+left: 940px;
+
+   
+}
+.note_second_title_ten {
+   top: 419.03px;
+   left: 961px;
+}
+.note_second_title_ten, .note_first_title_ten {
+   position: absolute;
+height: 12px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000; }
+
+.image_design {
+   position: absolute;
+height: 187px;
+left: 0px;
+top: 481.03px;
+
+background: url(.jpg);
+border-radius: 0px;
+
+}
+.kind_design {
+   position: absolute;
+height: 12px;
+left: 0px;
+top: 693.03px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 1.2;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #999999;
+}
+.title_eleven {
+   position: absolute;
+
+left: 0px;
+top: 723.03px;
+margin: 0;
+
+font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 24px;
+max-width: 261px;
+
+text-transform: uppercase;
+
+color: #000000;
+
+   
+}
+.note_first_title_eleven {
+top: 810.03px;
+left: 0px;
+
+   
+}
+.note_second_title_eleven {
+   top: 810.03px;
+   left: 22px;
+}
+.note_second_title_eleven, .note_first_title_eleven {
+   position: absolute;
+height: 12px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000; }
+
+
+.image_design_two {
+   position: absolute;
+height: 187px;
+left: 305px;
+top: 481.03px;
+
+background: url(.jpg);
+border-radius: 0px;
+
+}
+.kind_design_two {
+   position: absolute;
+height: 12px;
+left: 305px;
+top: 693.03px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 1.2;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #999999;
+}
+.title_twelve {
+   position: absolute;
+
+left: 305px;
+top: 723.03px;
+margin: 0;
+height: 96px;
+
+font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+max-width: 282px;
+
+text-transform: uppercase;
+
+color: #000000;
+
+   
+}
+.note_first_title_twelve {
+top: 834.03px;
+left: 313px;
+
+   
+}
+.note_second_title_twelve {
+   top: 834.03px;
+   left: 335px;
+}
+.note_second_title_twelve, .note_first_title_twelve {
+   position: absolute;
+height: 12px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000; }
+
+.image_architecture {
+   position: absolute;
+height: 187px;
+left: 610px;
+top: 481.03px;
+
+background: url(.jpg);
+border-radius: 0px;
+
+}
+.kind_architecture {
+   position: absolute;
+height: 12px;
+left: 610px;
+top: 693.03px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 1.2;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #999999;
+}
+.title_thirthteen {
+   position: absolute;
+
+left: 610px;
+top: 723.03px;
+max-width: 231px;
+margin: 0;
+height: 120px;
+
+font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 2rem;
+line-height: 2.4;
+
+text-transform: uppercase;
+
+color: #000000;
+
+   
+}
+.note_first_title_thirthteen {
+top: 858.03px;
+left: 626px;
+
+   
+}
+.note_second_title_thirthteen {
+   top: 858.03px;
+   left: 648px;
+}
+.note_second_title_twelve, .note_first_title_twelve {
+   position: absolute;
+height: 12px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000; }
+
+
+.image_design_three {
+   position: absolute;
+height: 187px;
+left: 610px;
+top: 481.03px;
+
+background: url(.jpg);
+border-radius: 0px;
+
+}
+.kind_design_three {
+   position: absolute;
+height: 12px;
+left: 610px;
+top: 693.03px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 0.5rem;
+line-height: 1.2;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #999999;
+}
+.title_thirthteen {
+   position: absolute;
+
+left: 610px;
+top: 723.03px;
+
+font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+max-width: 231px;
+
+text-transform: uppercase;
+
+color: #000000;
+
+   
+}
+.note_first_title_thirthteen {
+top: 858.03px;
+left: 626px;
+
+   
+}
+.note_second_title_thirthteen {
+   top: 858.03px;
+   left: 648px;
+}
+.note_second_title_thirthteen, .note_first_title_thirthteen {
+   position: absolute;
+height: 12px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000; }
+
+.image_design_three {
+   position: absolute;
+height: 187px;
+left: 915px;
+top: 481.03px;
+
+background: url(.jpg);
+border-radius: 0px;
+
+}
+.kind_design_three {
+   position: absolute;
+height: 12px;
+left: 915px;
+top: 693.03px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 1.2;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #999999;
+}
+.title_fourteen {
+   position: absolute;
+
+left: 915px;
+top: 723.03px;
+margin: 0;
+
+font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+max-width: 280px;
+
+text-transform: uppercase;
+
+color: #000000;
+
+   
+}
+.note_first_title_fourteen {
+top: 858.03px;
+left: 940px;
+
+   
+}
+.note_second_title_fourteen {
+   top: 858.03px;
+   left: 961px;
+}
+.note_second_title_fourteen, .note_first_title_fourteen {
+   position: absolute;
+height: 12px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000;
+}
+.block_two {
+   position: absolute;
+top: 1194px;
+left: 120px;
+right: 120px;
+display: flex;
+    flex-basis: 1200px;
+    justify-content: center;
+
+height: 1px;
+background: #E6E6E6;
+border-radius: 0px;
+}
+
+.wrapper_featured_posts {
+   position: absolute;
+width: 1200px;
+height: 1126.38px;
+left: 120px;
+top: 3055.06px;
+
+}
+.title_featured_posts {
+   position: absolute;
+height: 12px;
+left: 0px;
+top: 0.03px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #999999;
+
+}
+.img_football, .img_pool, .img__sea_beach, .img_glacier {
+   position: absolute;
+height: 387px;
+
+background: url(.jpg);
+border-radius: 0px;
+}
+.img_football {
+   left: 0px;
+   top: 41.97px;
+}
+
+.img_pool {
+   left: 610px;
+   top: 41.97px;
+}
+.img__sea_beach {
+   left: 0px;
+   top: 608.97px;
+}
+.img_glacier {
+   left: 610px;
+   top: 608.97px;
+}
+
+.kind_design_three, .kind_design_four, .kind_photography_seventh, .kind_illustration_two {
+   position: absolute;
+height: 12px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #999999;
+
+}
+.kind_design_three {
+   left: 0px;
+   top: 453.97px;
+}
+.kind_design_four {
+   left: 610px;
+   top: 453.97px;
+}
+.kind_photography_seventh {
+   left: 0px;
+   top: 1020.97px;
+}
+.kind_illustration_two {
+   left: 610px;
+   top: 1020.97px;
+}
+.title_fifteen, .title_sixteen, .title_seventeen {
+   position: absolute;
+height: 24px;
+margin: 0;
+
+font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 24px;
+
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.title_fifteen {
+   left: 0px;
+   top: 483.97px;
+}
+.title_sixteen {
+   left: 610px;
+   top: 483.97px;
+}
+.title_seventeen {
+   left: 0px;
+   top: 1050.97px;
+}
+.title_eighteen {
+   position: absolute;
+height: 48px;
+left: 610px;
+top: 1050.97px;
+margin: 0;
+
+font-family: 'Tenor Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+text-transform: uppercase;
+
+color: #000000;
+}
+.note_first_title_fifteen, .note_second_title_fifteen, .note_first_title_sixteen, .note_second_title_sixteen, .note_first_title_seventeen, .note_second_title_seventeen, .note_first_title_eighteen, .note_second_title_eighteen {
+   position: absolute;
+height: 12px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 700;
+font-size: 10px;
+line-height: 12px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #000000;
+
+}
+.note_first_title_fifteen {
+   left: 0px;
+   top: 522.97px;
+}
+.note_second_title_fifteen {
+   left: 21px;
+   top: 522.97px;
+}
+.note_first_title_sixteen {
+   left: 610px;
+   top: 546.97px;
+}
+.note_second_title_sixteen {
+   left: 631px;
+   top: 546.97px;
+}
+.note_first_title_seventeen {
+   left: 0px;
+   top: 1089.97px;
+}
+.note_second_title_seventeen {
+   left: 21px;
+   top: 1089.97px;
+}
+.note_first_title_eighteen {
+   left: 610px;
+   top: 1113.97px;
+}
+.note_second_title_eighteen {
+   left: 631px;
+   top: 1113.97px;
+}
+.wrapper_footer {
+   position: absolute;
+height: 617px;
+display: flex;
+top: 4268px;
+left: 0;
+width: 1440px;
+   margin: 0px auto;
+
+background: #141414;
+background-size: 100%;
+}
+.image_white {
+   position: absolute;
+left: 120px;
+top: 93px;
+width: 134.96px;
+height: 17.01;
+}
+.name_company {
+   position: absolute;
+height: 12px;
+left: 270px;
+top: 100px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #666666;
+}
+.block_footer {
+   position: absolute;
+top: 172px;
+right: 120px;
+left: 120px;
+display: flex;
+    flex-basis: 1200px;
+    justify-content: center;
+
+height: 1px;
+background: #4D4D4D;
+border-radius: 0px;
+}
+.footer_categories, .footer_subscribe, .footer_information, .footer_follow, .footer_template {
+   position: absolute;
+height: 12px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #666666;
+
+}
+
+.footer_categories {
+   top: 233px;
+   left: 120px;
+}
+.footer_subscribe {
+   top: 233px;
+   left: 1020px;
+}
+.footer_information {
+   top: 398px;
+   left: 120px;
+}
+.footer_follow {
+   top: 398px;
+   left: 345px;
+}
+.footer_template {
+   top: 398px;
+   left: 570px;
+}
+.category_animation, .category_interactive, .category_architecture, .category_miscellaneous, .category_graphic, .category_photography, .category_illustration, .category_product, .subcategory_about, .subcategory_contact, .subcategory_terms, .subcategory_instagram, .subcategory_facebook, .subcategory_twitter, .subcategory_image, .subcategory_weblow {
+   position: absolute;
+height: 24px;
+
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-decoration: none;
+
+
+
+color: #FFFFFF;
+
+}
+.category_animation {
+   top: 265px;
+   left: 120px;
+}
+.category_interactive {
+   top: 304px;
+   left: 120px;
+}
+.category_architecture {
+   top: 265px;
+   left: 345px;
+}
+.category_miscellaneous {
+   top: 304px;
+   left: 345px;
+}
+.category_graphic {
+   top: 265px;
+   left: 570px;
+}
+.category_photography {
+   top: 304px;
+   left: 570px;
+}
+.category_illustration {
+   top: 265px;
+   left: 795px;
+}
+.category_product {
+   top: 304px;
+   left: 795px;
+}
+.subcategory_about {
+   top: 430px;
+   left: 120px;
+}
+.subcategory_contact {
+   top: 464px;
+   left: 120px;
+}
+.subcategory_terms {
+   top: 498px;
+   left: 120px;
+}
+.subcategory_instagram {
+   top: 430px;
+   left: 345px;
+}
+.subcategory_facebook {
+   top: 464px;
+   left: 345px;
+}
+.subcategory_twitter {
+   top: 498px;
+   left: 345px;
+}
+.subcategory_image {
+   top: 430px;
+   left: 570px;
+}
+.subcategory_weblow {
+   top: 464px;
+   left: 570px;
+}
+.box_for_email {
+box-sizing: border-box;
+
+position: absolute;
+height: 48px;
+width: 221px;
+left: 1020px;
+top: 265px;
+
+background: #FFFFFF;
+border: 1px solid #CCCCCC;
+border-radius: 0px;
+
+}
+input {
+   border: none;
+   position: absolute;
+   top: 18px;
+   left: 24px;
+   width: 174px;
+   height: 12px;
+}
+.email_btn {
+   position: absolute;
+height: 48px;
+width: 79px;
+left: 1241px;
+top: 265px;
+font-family: 'Libre Franklin';
+font-style: normal;
+font-weight: 400;
+font-size: 10px;
+line-height: 12px;
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
+
+background: #000000;
+border-radius: 0px;
+}
+::placeholder {
+   font-family: 'Libre Franklin';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 10px;
+   line-height: 12px;
+   
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   
+   color: #666666;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
